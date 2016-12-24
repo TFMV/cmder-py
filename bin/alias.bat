@@ -1,5 +1,5 @@
 @echo off
-
+::python aliases added here
 
 if "%aliases%" == "" (
   set ALIASES=%CMDER_ROOT%\config\user-aliases.cmd
@@ -110,11 +110,11 @@ exit /b
 
 :p_help
 echo.Usage:
-echo. 
+echo.
 echo.	alias [options] [alias=full command]
-echo. 
+echo.
 echo.Options:
-echo. 
+echo.
 echo.     /d [alias]     Delete an [alias].
 echo.     /f [macrofile] Path to the [macrofile] you want to store the new alias in.
 echo.                    Default: %cmder_root%\config\user-aliases.cmd
